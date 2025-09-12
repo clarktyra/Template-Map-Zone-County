@@ -399,6 +399,7 @@ function initRenameState(name) {
     const elements = document.querySelectorAll('.stateName');
     if (name){ elements.forEach(element => { element.innerText = name })
     }
+    document.title = `${name} Cancer Registry`;
 }
 
 function initNumberOfCancerSites(num) {
